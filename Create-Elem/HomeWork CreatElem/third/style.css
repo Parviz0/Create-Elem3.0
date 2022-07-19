@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 350px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 800ms;
+    border-radius: 10px;
+}
+main:hover{
+    box-shadow: 0 0 10px black;
+}
+.phone{
+    width: 270px;
+    height: 270px;
+    margin-left: 40px;
+}
+.like{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    fill: #F91155FF;
+    transition: 800ms;
+    cursor: pointer;
+}
+.repost{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 60px;
+    right: 30px;
+    border-radius: 15px;
+    fill: #F91155FF;
+    transition: 800ms;
+    cursor: pointer;
+}
+.inMain{
+    width: 100%;
+    height: 270px;
+    display: flex;
+}
+.repost:hover{
+    background-color: #F91155FF;
+}
+.like:hover{
+    width: 32px;
+    height: 32px;
+}
+a{
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    transition: 800ms;
+}
+a:hover{
+    color: #F91155FF;
+}
+h3{
+    position: relative;
+    height: 20px;
+    bottom: 100px;
+    right: 65px;
+}
+.credit{
+    position: absolute;
+    height: 20px;
+    width: 170px;
+    color: white;
+    right: 65px;
+    top: 390px;
+    left: 470px;
+    background-color: #F91155FF;
+    border-radius: 8px;
+}
+.txt{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 415px;
+}
+p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 65px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+}

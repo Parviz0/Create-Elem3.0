@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    margin-left: 580px;
+    margin-top: 20px;
+    width: 100%;
+}
+body{
+    height: 230vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #162344;
+    color: white;
+}
+.leftBlockOne{
+    width: 400px;
+    height: 180px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    background-color: #18233EFF;
+}
+.leftBlockTwo{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    margin-top: 300px;
+    margin-left: 60px;
+    display: flex;
+    background-color: #18233EFF;
+}
+.leftBlockThree{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    margin-top: 300px;
+    margin-left: 60px;
+    display: flex;
+    background-color: #384D70FF;
+}
+.rightBlockOne{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    margin-top: 220px;
+    margin-left: 60px;
+    display: flex;
+    background-color: #18233EFF;
+}
+.rightBlockTwo{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    margin-top: 300px;
+    margin-left: 60px;
+    background-color: #384D70FF;
+    display: flex;
+}
+.mainRight{
+    margin-left: 200px;
+}
+hr{
+    width: 1px;
+    height: 1300px;
+    margin-left: 180px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.InLeftBlockOne{
+    width: 200px;
+    height: 130px;
+    color: #BABDC5FF;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.InLeftBlockTwo{
+    width: 230px;
+    height: 200px;
+    color: #BABDC5FF;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.InLeftBlockThree{
+    width: 230px;
+    height: 200px;
+    color: #BABDC5FF;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.InRightBlockOne{
+    width: 240px;
+    height: 180px;
+    color: #BABDC5FF;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.InRightBlockTwo{
+    width: 230px;
+    height: 200px;
+    color: #BABDC5FF;
+    margin-top: 20px;
+    margin-left: 30px;
+}
